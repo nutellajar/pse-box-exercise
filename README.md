@@ -1,2 +1,2 @@
 # pse-box-exercise
-long polling python
+this is an example of long polling using python code
