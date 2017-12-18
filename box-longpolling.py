@@ -23,7 +23,7 @@ eventlet.monkey_patch()
 # In order to run this program, you need to generate a developer token from your developer.box.com account
 # found in the configuration section of an App.
 # you can hardcode the developer token here in the ACCESS_TOKEN or store it in an environment variable
-ACCESS_TOKEN = "xxxx"
+ACCESS_TOKEN = " "
 AUTH_BEARER = "Bearer " + ACCESS_TOKEN
 HEADERS = {'Authorization' : AUTH_BEARER }
 
