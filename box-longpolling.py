@@ -20,9 +20,9 @@ from eventlet.green import urllib2
 eventlet.monkey_patch()
 
 
-# In order to run you need to generate a developer token from your developer.box.com account
+# In order to run this program, you need to generate a developer token from your developer.box.com account
 # found in the configuration section of an App.
-# you can hardcode it here in the ACCESS_TOKEN or store it in an environment variable
+# you can hardcode the developer token here in the ACCESS_TOKEN or store it in an environment variable
 ACCESS_TOKEN = "xxxx"
 AUTH_BEARER = "Bearer " + ACCESS_TOKEN
 HEADERS = {'Authorization' : AUTH_BEARER }
